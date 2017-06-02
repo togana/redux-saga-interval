@@ -1,0 +1,34 @@
+{
+  "name": "redux-saga-interval",
+  "description": "Add effect to execute fork in redux-saga arbitrary interval.",
+  "version": "0.0.1",
+  "author": "togana <o.togana@gmail.com>",
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "dependencies": {
+    "redux-saga": "^0.15.3"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.3.0",
+    "webpack": "^2.6.1"
+  },
+  "license": "MIT",
+  "repository": "git@github.com:togana/redux-saga-interval.git",
+  "scripts": {
+    "build": "webpack -p",
+    "lint": "eslint .",
+    "test": "ava -v"
+  }
+}
